@@ -1,0 +1,33 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es5",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "./src/*",
+                "./node_modules/@types/*",
+                "./types/*"
+            ]
+        },
+        "typeRoots": [
+            "./types",
+            "./node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "jspm_packages",
+        "types",
+        "examples"
+    ]
+}

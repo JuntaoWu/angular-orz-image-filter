@@ -1,0 +1,28 @@
+{
+  "name": "angular-orz-image-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/angular": "^1.6.25",
+    "serve": "^6.0.1",
+    "systemjs-builder": "^0.16.9",
+    "typescript": "^2.4.1"
+  },
+  "scripts": {
+    "build":"node build",
+    "test": "serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "jspm": {
+    "configFile": "system.config.js",
+    "dependencies": {
+      "angular": "npm:angular@1.6"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^2.4.1"
+    }
+  }
+}
