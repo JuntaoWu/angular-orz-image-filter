@@ -1,33 +1,26 @@
 {
-    "compileOnSave": false,
-    "compilerOptions": {
-        "declaration": true,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "noEmitOnError": true,
-        "noImplicitAny": false,
-        "removeComments": false,
-        "sourceMap": true,
-        "target": "es5",
-        "baseUrl": ".",
-        "paths": {
-            "*": [
-                "./src/*",
-                "./node_modules/@types/*",
-                "./types/*"
-            ]
-        },
-        "typeRoots": [
-            "./types",
-            "./node_modules/@types"
-        ]
-    },
-    "exclude": [
-        "node_modules",
-        "jspm_packages",
-        "types",
-        "examples"
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "noImplicitAny": true,
+    "outDir": "./lib",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "./node_modules/@types"
     ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "jspm_packages",
+    "types",
+    "examples",
+    "**/*-spec.ts"
+  ]
 }

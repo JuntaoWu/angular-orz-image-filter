@@ -7,7 +7,7 @@ System.config({
     "npm:*": "jspm_packages/npm/*"
   },
   packages: {
-    "angular-orz-image-filter": { main: "index.js", defaultJSExtensions: true }
+    "angular-orz-image-filter": { main: "lib/index.js", defaultJSExtensions: true }
   },
   map: {
     "angular-orz-image-filter": "node_modules/angular-orz-image-filter",

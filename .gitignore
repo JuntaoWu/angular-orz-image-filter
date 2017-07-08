@@ -1,5 +1,7 @@
-jspm_packages/
+coverage/
 node_modules/
-src/**/*.js
-src/**/*.map
-dist/
+jspm_packages/
+npm-debug.log
+.nyc_output
+lib
+lib_test

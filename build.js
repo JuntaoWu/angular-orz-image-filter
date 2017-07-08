@@ -14,7 +14,7 @@ builder.config({
 });
 
 builder
-.buildStatic('index.js', 'dist/angular-orz-image-filter.js', {
+.buildStatic('lib/index.js', 'lib/angular-orz-image-filter.js', {
     globalName: 'orz',
     globalDeps: {
     'angular': 'angular'

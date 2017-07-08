@@ -1,0 +1,1 @@
+    "test": "npm run clean && tsc -p tsconfig.test.json --pretty && nyc --exclude \"**/*-spec.js\" ava \"**/*-spec.js\" --verbose",
