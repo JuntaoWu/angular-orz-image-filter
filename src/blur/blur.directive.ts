@@ -33,7 +33,7 @@ function blurDirective() {
     element: JQuery,
     attrs: angular.IAttributes
   ) {
-    (element.find("feGaussianBlur") as any).setStdDeviation(
+    (element.find("feGaussianBlur") as any)[0].setStdDeviation(
       scope.vm.stddeviation,
       scope.vm.stddeviation
     );

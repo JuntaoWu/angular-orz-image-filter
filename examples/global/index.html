@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-orz-image-filter/lib/angular-orz-image-filter.js"></script>
+</head>
+
+<body>
+    <img orz-blur src="test.png" stddeviation="5" />
+    <orz-blur src="test.png" stddeviation="5"></orz-blur>
+    <script>
+        angular.module('mainApp', ["orz.blur"]);
+
+        angular.bootstrap(document.body, ['mainApp'], {
+            strictDi: true
+        });
+    </script>
+</body>
+
+</html>

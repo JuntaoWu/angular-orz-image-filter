@@ -1,14 +1,11 @@
-import { assert } from "chai";
-import { suite, test, slow, timeout } from "mocha-typescript";
+import { expect } from "chai";
 
-import * as angular from "angular";
 import { blur } from "../src/index";
 
-@suite
-class Blur {
-  @test
-  isBlurNameCorrect() {
-    const name = blur.name;
-    assert.equal(name, "orz.blur", "blur.name equals orz.blur");
-  }
-}
+describe("A suite", () => {
+  const name = blur.name;
+  it("contains spec with an expectation", () => {
+    expect(true).equals(true);
+    expect(name).equals("orz.blur");
+  });
+});

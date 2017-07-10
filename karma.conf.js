@@ -1,9 +1,9 @@
 // karma.conf.js
 module.exports = function (config) {
     config.set({
-        frameworks: ['jspm', 'mocha'],
+        frameworks: ['jspm', 'mocha', 'chai'],
 
-        plugins: ['karma-mocha', 'karma-jspm'],
+        plugins: ['karma-mocha', 'karma-chai', 'karma-jspm'],
 
         files: [
 
@@ -33,6 +33,7 @@ module.exports = function (config) {
 
                 // custom ui, defined in required file above
             }
-        }
+        },
+        autoWatch: true
     });
 };
