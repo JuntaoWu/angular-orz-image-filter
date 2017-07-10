@@ -56,7 +56,7 @@ angular.module("mainApp", [blur.name]);
     <blur-me src="test.png" stddeviation="5"></blur-me>
 ``` 
 
-> Use angular-orz-image-filter via <script> tag
+> Use angular-orz-image-filter via script tag
 
 - Install or download angular-orz-image-filter via npm
 
