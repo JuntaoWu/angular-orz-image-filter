@@ -72,3 +72,5 @@ angular.module("mainApp", [blur.name]);
         angular.module("mainApp", ["orz.blur"]);
     </script>
 ```
+
+- See https://juntaowu.github.io/angular-orz-image-filter/examples/global/ for a demo
