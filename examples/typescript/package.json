@@ -16,7 +16,7 @@
     "test": "serve"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "jspm": {
     "configFile": "system.config.js",
     "dependencies": {
