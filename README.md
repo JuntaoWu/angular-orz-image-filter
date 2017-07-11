@@ -52,8 +52,8 @@ angular.module("mainApp", [blur.name]);
 - Then you can include the orz-blur inside your html
 
 ```
-    <img blur-me src="test.png" stddeviation="5" />
-    <blur-me src="test.png" stddeviation="5"></blur-me>
+    <img orz-blur src="test.png" stddeviation="5" />
+    <orz-blur src="test.png" stddeviation="5"></orz-blur>
 ``` 
 
 > Use angular-orz-image-filter via script tag
@@ -63,8 +63,8 @@ angular.module("mainApp", [blur.name]);
 - Then include script reference
 
 ```
-    <img blur-me src="test.png" stddeviation="5" />
-    <blur-me src="test.png" stddeviation="5"></blur-me>
+    <img orz-blur src="test.png" stddeviation="5" />
+    <orz-blur src="test.png" stddeviation="5"></orz-blur>
     
     <script src="node_modules/angular/angular.js"></script>
     <script src="node_modules/angular-orz-image-filter/lib/angular-orz-image-filter.js"></script>
