@@ -1,6 +1,6 @@
 {
   "name": "angular-orz-image-filter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An img helper directive for some cross-platform effects, like: blur",
   "license": "MIT",
   "repository": "https://github.com/JuntaoWu/angular-orz-image-filter.git",

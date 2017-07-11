@@ -10,8 +10,12 @@
 </head>
 
 <body>
-    <img orz-blur src="test.png" stddeviation="5" />
-    <orz-blur src="test.png" stddeviation="5"></orz-blur>
+    <div style="width: 256px; height: 256px;">
+        <img orz-blur src="test.png" stddeviation="5" />
+    </div>
+    <div style="width: 256px; height: 256px;">
+        <orz-blur src="test.png" stddeviation="5"></orz-blur>
+    </div>
     <script>
         angular.module('mainApp', ["orz.blur"]);
 

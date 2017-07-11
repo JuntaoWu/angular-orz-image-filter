@@ -2,6 +2,8 @@
 types/
 .vscode/
 tsconfig.json
+node_modules
+jspm_packages
  
 # igore the map files
 **/*.map
@@ -11,3 +13,6 @@ tsconfig.json
  
 # include the .d.ts files
 !*.d.ts
+
+# ignore tgz files
+*.tgz

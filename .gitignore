@@ -1,7 +1,10 @@
 coverage/
 node_modules/
 jspm_packages/
+src/**/*.js
+src/**/*.map
 npm-debug.log
 .nyc_output
 lib
 lib_test
+*.tgz
