@@ -9,8 +9,15 @@
 </head>
 
 <body>
-    <img orz-blur src="test.jpg" stddeviation="5" />
-    <orz-blur src="test.jpg" stddeviation="5"></orz-blur>
+    <div style="width: 256px; height: 256px;">
+        <img orz-blur src="test.jpg" stddeviation="5" />
+    </div>
+    <div style="width: 256px; height: 256px;">
+        <orz-blur src="test.jpg" stddeviation="5"></orz-blur>
+    </div>
+    <div style="width: 256px; height: 256px;">
+        <img src="test.jpg" style="max-width: 100%; max-height: 100%;" />
+    </div>
     <script src="/system.config.js"></script>
     <script>
         System.import("index.js").catch(function (ex) {
