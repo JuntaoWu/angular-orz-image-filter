@@ -79,14 +79,8 @@ class BlurController {
       "viewBox",
       [0, 0, this.width, this.height].join(" ")
     );
-    (this.$element.find("image") as any)[0].setAttribute(
-      "width",
-      this.width
-    );
-    (this.$element.find("image") as any)[0].setAttribute(
-      "height",
-      this.height
-    );
+    (this.$element.find("image") as any)[0].setAttribute("width", this.width);
+    (this.$element.find("image") as any)[0].setAttribute("height", this.height);
   }
 }
 
