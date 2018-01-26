@@ -1,4 +1,3 @@
-"use strict";
-import * as angular from "angular";
+import { ng as angular } from "./angular";
 
-export default angular.module("orz.blur", []);
+export const blur = angular.module("orz.blur", []);

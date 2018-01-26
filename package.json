@@ -1,6 +1,6 @@
 {
   "name": "angular-orz-image-filter",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "An img helper directive for some cross-platform effects, like: blur",
   "license": "MIT",
   "repository": "https://github.com/JuntaoWu/angular-orz-image-filter.git",
@@ -27,7 +27,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/angular": "^1.6.25",
+    "@types/angular": "^1.6",
     "@types/chai": "^4.0.1",
     "@types/mocha": "^2.2.41",
     "@types/node": "^7.0.0",
@@ -47,10 +47,10 @@
     "systemjs-builder": "^0.16.9",
     "tslint": "^5.0.0",
     "tslint-config-prettier": "^1.1.0",
-    "typescript": "^2.4.1"
+    "typescript": "^2.6.2"
   },
   "peerDependencies": {
-    "angular": "1.6.5"
+    "angular": "^1.6"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -59,7 +59,6 @@
     "configFile": "system.config.js",
     "dependencies": {},
     "devDependencies": {
-      "angular": "npm:angular@^1.6.5",
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "chai": "npm:chai@^4.0.2",

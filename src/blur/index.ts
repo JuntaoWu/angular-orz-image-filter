@@ -1,1 +1,2 @@
-export * from "./blur.directive";
+export * from "./blur.module";
+import "./blur.directive";

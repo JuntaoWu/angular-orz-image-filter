@@ -1,8 +1,6 @@
-"use strict";
-import * as angular from "angular";
-import blurModule from "./blur.module";
+import { ng as angular } from "./angular";
 
-export const blur = blurModule.directive("orzBlur", blurDirective);
+angular.module("orz.blur").directive("orzBlur", blurDirective);
 
 blurDirective.$inject = [];
 
